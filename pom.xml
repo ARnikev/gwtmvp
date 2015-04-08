@@ -50,7 +50,13 @@
       <artifactId>gwt-dev</artifactId>
       <scope>provided</scope>
     </dependency>
-    <dependency>
+      <dependency>
+          <groupId>com.sencha.gxt</groupId>
+          <artifactId>gxt</artifactId>
+          <version>3.1.1</version>
+          <scope>compile</scope>
+      </dependency>
+      <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
